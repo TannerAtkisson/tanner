@@ -1,0 +1,30 @@
+#include <cstdlib>
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+using std::cin;
+using std::cout;
+using std::endl;
+
+constexpr double PI = std::acos(-1);
+
+int main (int argc, char** argv)
+{
+  double radius, circu, area;
+  
+  cout<< "pi= " << std::setprecision(16) << PI << endl;
+
+  cout << "enter a radius in meter: ";
+  cin >> radius;
+
+  circum = 2.*PI*radius;
+  area = PI*pow(radius,2);
+
+  cout << "Radius: " << radius << "m" << endl;
+  cout << "Circumference: "<< circum << "m" << endl;
+  cout << "Area: " << area << "m^2" << endl;
+
+  return EXIT_SUCCESS;
+
+} // end main
